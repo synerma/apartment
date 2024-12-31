@@ -16,7 +16,7 @@ require:
 
 Gemspec/RequiredRubyVersion:
   Exclude:
-    - 'ros-apartment.gemspec'
+    - 'synerma-apartment.gemspec'
 
 Layout/MultilineMethodCallIndentation:
   EnforcedStyle: indented

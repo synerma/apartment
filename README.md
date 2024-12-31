@@ -1,6 +1,6 @@
 # Apartment
 
-[![Gem Version](https://badge.fury.io/rb/ros-apartment.svg)](https://badge.fury.io/rb/ros-apartment)
+[![Gem Version](https://badge.fury.io/rb/synerma-apartment.svg)](https://badge.fury.io/rb/synerma-apartment)
 [![codecov](https://codecov.io/gh/rails-on-services/apartment/graph/badge.svg?token=Q4I5QL78SA)](https://codecov.io/gh/rails-on-services/apartment)
 
 *Multitenancy for Rails and ActiveRecord*
@@ -9,13 +9,13 @@ Apartment provides tools to help you deal with multiple tenants in your Rails
 application. If you need to have certain data sequestered based on account or company,
 but still allow some data to exist in a common tenant, Apartment can help.
 
-## Apartment Fork: ros-apartment
+## Apartment Fork: synerma-apartment
 
-This gem is a fork of the original Apartment gem, which is no longer maintained. We have continued development under the name `ros-apartment` to keep the gem up-to-date and compatible with the latest versions of Rails. `ros-apartment` is designed as a drop-in replacement for the original, allowing you to seamlessly transition your application without code changes.
+This gem is a fork of the original Apartment gem, which is no longer maintained. We have continued development under the name `synerma-apartment` to keep the gem up-to-date and compatible with the latest versions of Rails. `synerma-apartment` is designed as a drop-in replacement for the original, allowing you to seamlessly transition your application without code changes.
 
 ## Community Support
 
-This project thrives on community support. Whether you have an idea for a new feature, find a bug, or need help with `ros-apartment`, we encourage you to participate! For questions and troubleshooting, check out our [Discussions board](https://github.com/rails-on-services/apartment/discussions) to connect with the community. You can also open issues or submit pull requests directly. We are committed to maintaining `ros-apartment` and ensuring it remains a valuable tool for Rails developers.
+This project thrives on community support. Whether you have an idea for a new feature, find a bug, or need help with `synerma-apartment`, we encourage you to participate! For questions and troubleshooting, check out our [Discussions board](https://github.com/rails-on-services/apartment/discussions) to connect with the community. You can also open issues or submit pull requests directly. We are committed to maintaining `synerma-apartment` and ensuring it remains a valuable tool for Rails developers.
 
 ### Maintainer Update
 
@@ -28,7 +28,7 @@ As of May 2024, Apartment is maintained with the support of [CampusESP](https://
 Add the following to your Gemfile:
 
 ```ruby
-gem 'ros-apartment', require: 'apartment'
+gem 'synerma-apartment', require: 'apartment'
 ```
 
 Then generate your `Apartment` config file using
@@ -294,14 +294,14 @@ When method is called, the schema is dropped and all data from itself will be lo
 
 #### Console methods
 
-`ros-apartment` console configures two helper methods:
+`synerma-apartment` console configures two helper methods:
 1. `tenant_list` - list available tenants while using the console
 2. `st(tenant_name:String)` - Switches the context to the tenant name passed, if
 it exists.
 
 #### Custom printed prompt
 
-`ros-apartment` also has a custom prompt that gives a bit more information about
+`synerma-apartment` also has a custom prompt that gives a bit more information about
 the context in which you're running. It shows the environment as well as the tenant
 that is currently switched to. In order for you to enable this, you need to require
 the custom console in your application.
@@ -624,7 +624,7 @@ $ APARTMENT_DISABLE_INIT=true DATABASE_URL=postgresql://localhost:1234/buk_devel
 
 ## Contribution Guidelines
 
-We welcome and appreciate contributions to `ros-apartment`! Whether you want to report a bug, propose a new feature, or submit a pull request, your help keeps this project thriving. Please review the guidelines below to ensure a smooth collaboration process.
+We welcome and appreciate contributions to `synerma-apartment`! Whether you want to report a bug, propose a new feature, or submit a pull request, your help keeps this project thriving. Please review the guidelines below to ensure a smooth collaboration process.
 
 ### How to Contribute
 
@@ -662,9 +662,9 @@ We are committed to providing a welcoming and inclusive environment for all cont
 
 ### Questions and Support
 
-If you have any questions or need support while contributing or using `ros-apartment`, visit our [Discussions board](https://github.com/rails-on-services/apartment/discussions) to ask questions and connect with the maintainer team and community.
+If you have any questions or need support while contributing or using `synerma-apartment`, visit our [Discussions board](https://github.com/rails-on-services/apartment/discussions) to ask questions and connect with the maintainer team and community.
 
-We look forward to your contributions and thank you for helping us keep `ros-apartment` a reliable and robust tool for the Rails community!
+We look forward to your contributions and thank you for helping us keep `synerma-apartment` a reliable and robust tool for the Rails community!
 
 ## License
 
